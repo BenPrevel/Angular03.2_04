@@ -6,7 +6,7 @@ import { UserProfileComponent } from "./menu/user-profile/user-profile.component
 const ROUTES : Routes = [
     { path: 'sign-up', component: SignUpComponent},
     { path: 'user-profile', component: UserProfileComponent},
-    { path: "menu", component: MenuComponent},
+    { path: "", component: MenuComponent},
 ];
 
 export {ROUTES};
